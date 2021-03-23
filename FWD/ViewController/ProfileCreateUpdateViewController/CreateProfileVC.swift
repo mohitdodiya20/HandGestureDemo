@@ -46,7 +46,7 @@ class CreateProfileVC: UIViewController , UIGestureRecognizerDelegate , UITextFi
         setTblViewCell()
         setNextArrowHide()
         print("Test data")
-        print("Changes test data")
+        print("Changes test data 12345")
         //Set icon for location
         viewAreaLiveIn.isShowNextArrowImage = true
         viewAreaLiveIn.constWidthNextImage.constant = 20//25
