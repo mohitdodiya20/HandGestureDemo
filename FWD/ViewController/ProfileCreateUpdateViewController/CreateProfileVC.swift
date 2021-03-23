@@ -12,8 +12,8 @@ class CreateProfileVC: UIViewController , UIGestureRecognizerDelegate , UITextFi
     // MARK: - IBOutlets
     
     @IBOutlet weak var btnCancelProfilePicture: UIButton!
-    @IBOutlet weak var btnAddProfilePicture: UIButton!
-    @IBOutlet weak var imgBackGroundBlur: UIImageView!
+    @IBOutlet weak var btnCancelProfilePicture1: UIButton!
+    @IBOutlet weak var btnCancelProfilePicture2: UIButton!
     @IBOutlet weak var constHeightUploadPhotos: NSLayoutConstraint!
     @IBOutlet weak var constHeightClctnView: NSLayoutConstraint!
     @IBOutlet weak var sgmentGender: WMSegment!
