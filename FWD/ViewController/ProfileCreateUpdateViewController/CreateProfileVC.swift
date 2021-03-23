@@ -46,14 +46,15 @@ class CreateProfileVC: UIViewController , UIGestureRecognizerDelegate , UITextFi
         setTblViewCell()
         setNextArrowHide()
         print("Test data")
+        print("Changes test data")
         //Set icon for location
         viewAreaLiveIn.isShowNextArrowImage = true
         viewAreaLiveIn.constWidthNextImage.constant = 20//25
         viewAreaLiveIn.btnNext.image = UIImage(named: "Location-1")
         
-        
+        print("Test data")
         //selected Segement color 
-        sgmentGender.selectorColor = UIColor(patternImage: UIImage(named: "genderselection")!)
+        sgmentGender.selectorColor = UIColor(patternImage: UIImage(named: "genderselection", "Trst fatre")!)
         
         
         self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
