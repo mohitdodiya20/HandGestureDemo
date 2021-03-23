@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="AddPhotoCell" reuseIdentifier="AddPhotoCell" id="gTV-IL-0wX" customClass="AddPhotoCell" customModule="FWD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="95" height="121"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="95" height="121"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzd-U9-hOe">
+                        <rect key="frame" x="35" y="60" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="W0A-9x-2VK"/>
+                            <constraint firstAttribute="height" constant="15" id="u6J-sm-RCr"/>
+                        </constraints>
+                        <state key="normal" image="add_photo"/>
+                    </button>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kjm-PB-dig">
+                        <rect key="frame" x="0.0" y="11" width="85" height="110"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="110" id="78K-rL-twE"/>
+                            <constraint firstAttribute="width" constant="85" id="HaO-iR-Kll"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.75294117650000003" green="0.80392156859999997" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Kjm-PB-dig" secondAttribute="trailing" constant="10" id="DQy-JR-mkA"/>
+                <constraint firstAttribute="bottom" secondItem="Kjm-PB-dig" secondAttribute="bottom" id="G1p-qN-bY2"/>
+                <constraint firstItem="Kjm-PB-dig" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="M78-LU-bKj"/>
+                <constraint firstItem="nzd-U9-hOe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="35" id="rL0-eM-U3B"/>
+                <constraint firstItem="nzd-U9-hOe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="60" id="vNd-nZ-loL"/>
+            </constraints>
+            <size key="customSize" width="105" height="113"/>
+            <connections>
+                <outlet property="imgView" destination="Kjm-PB-dig" id="WWE-wD-kU3"/>
+            </connections>
+            <point key="canvasLocation" x="-122.46376811594205" y="33.816964285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="add_photo" width="32" height="32"/>
+    </resources>
+</document>
