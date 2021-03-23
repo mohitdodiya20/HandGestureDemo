@@ -12,7 +12,6 @@
 		4720A4C12609D58E004C4EBB /* AreaMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720A4C02609D58E004C4EBB /* AreaMapVC.swift */; };
 		4720A4EB2609F951004C4EBB /* CreateProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720A4EA2609F951004C4EBB /* CreateProfileVC.swift */; };
 		4720A4FD260A0D79004C4EBB /* LoginSignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4720A4FC260A0D79004C4EBB /* LoginSignUp.storyboard */; };
-		4720A501260A0E3D004C4EBB /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4720A500260A0E3D004C4EBB /* WelcomeVC.swift */; };
 		4755FC3E26086D8E00BE80A1 /* CreateProfileListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4755FC3C26086D8E00BE80A1 /* CreateProfileListTableViewCell.swift */; };
 		4755FC3F26086D8E00BE80A1 /* CreateProfileListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4755FC3D26086D8E00BE80A1 /* CreateProfileListTableViewCell.xib */; };
 		4755FC8E26089C0400BE80A1 /* WMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4755FC8D26089C0400BE80A1 /* WMSegment.swift */; };
@@ -44,7 +43,6 @@
 		4720A4C02609D58E004C4EBB /* AreaMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaMapVC.swift; sourceTree = "<group>"; };
 		4720A4EA2609F951004C4EBB /* CreateProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileVC.swift; sourceTree = "<group>"; };
 		4720A4FC260A0D79004C4EBB /* LoginSignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LoginSignUp.storyboard; path = ../../../../../../../LoginSignUp.storyboard; sourceTree = "<group>"; };
-		4720A500260A0E3D004C4EBB /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeVC.swift; path = ../../../../../../../../WelcomeVC.swift; sourceTree = "<group>"; };
 		4755FC3C26086D8E00BE80A1 /* CreateProfileListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileListTableViewCell.swift; sourceTree = "<group>"; };
 		4755FC3D26086D8E00BE80A1 /* CreateProfileListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateProfileListTableViewCell.xib; sourceTree = "<group>"; };
 		4755FC8D26089C0400BE80A1 /* WMSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMSegment.swift; sourceTree = "<group>"; };
@@ -100,14 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4720A4FF260A0D8E004C4EBB /* LoginSignUpViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				4720A500260A0E3D004C4EBB /* WelcomeVC.swift */,
-			);
-			path = LoginSignUpViewControllers;
-			sourceTree = "<group>";
-		};
 		4755FC8C26089BF600BE80A1 /* SegmentContorller */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +117,6 @@
 		47995D6526034EDB005DCAE5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4720A4FF260A0D8E004C4EBB /* LoginSignUpViewControllers */,
 				47995D6726034EF1005DCAE5 /* ProfileCreateUpdateViewController */,
 			);
 			path = ViewController;
@@ -429,7 +418,6 @@
 				47CB1F252604C8DC00785B37 /* AddPhotoCell.swift in Sources */,
 				4720A4EB2609F951004C4EBB /* CreateProfileVC.swift in Sources */,
 				47D23C952609BA27007CA99E /* FWDDateVC.swift in Sources */,
-				4720A501260A0E3D004C4EBB /* WelcomeVC.swift in Sources */,
 				476A11582608AC05000DBB04 /* AddOccupationVC.swift in Sources */,
 				47D23C8C2609ADF7007CA99E /* ChildrenCountVC.swift in Sources */,
 				470841352608BD8B0053DDE7 /* AddEducationVC.swift in Sources */,
