@@ -53,8 +53,9 @@ class CreateProfileVC: UIViewController , UIGestureRecognizerDelegate , UITextFi
         viewAreaLiveIn.btnNext.image = UIImage(named: "Location-1")
         
         print("Test data")
+        print("test data two")
         //selected Segement color 
-        sgmentGender.selectorColor = UIColor(patternImage: UIImage(named: "genderselection", "Trst fatre")!)
+        sgmentGender.selectorColor = UIColor(patternImage: UIImage(named: "genderselection")!)
         
         
         self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
